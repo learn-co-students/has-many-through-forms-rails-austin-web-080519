@@ -81,7 +81,7 @@ Luckily, `has_many, through` functions exactly the same as a `has_many` relation
 
 This will create a checkbox field for each `Category` in our database. The HTML generated looks something like this:
 
-```html
+```html  
 <input type="checkbox" value="1" name="post[category_ids][]" id="post_category_ids_1">
 ```
 
